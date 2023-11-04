@@ -16,10 +16,10 @@ HTML/CSS
   margin: 20px auto;
 }
 ```  
-<br>
-<br>
 2. 기본 설정(여백 삭제 등)
-``` *{
+
+```
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
