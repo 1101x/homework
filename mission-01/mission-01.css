@@ -2,8 +2,8 @@
   --gray-100:#F3F3F3;
   --gray-500: #C4C4C4;
   --gray-800:#4E4E4E;
-  --Opacity-20: rgba(70, 70, 70, 0.2);
-  --White: #FFF;
+  --blue: #0074E9;
+  --opacity-20: rgba(70, 70, 70, 0.2);
 }
 
 
@@ -16,38 +16,74 @@
   ;
 }
 
-
-
-.card1 {
-  background: lightblue;
-  position: relative;
-  padding: 20px 28px;
+.artboard{
   width: 502px;
-  height: 310px;
-  border: 1px solid var(--gray-500);
-  background: var(--White);
+  margin: 20px auto;
+}
+.area1 {
+  position: relative;
+}
+.area2{
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+
 }
 
 .box1{
+  background: white;
+  border: 1px solid var(--gray-500);
+  height: 310px;
+  padding: 20px 28px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .con1{
   text-align: center;
   width: 50%;
 }
-.con1 h2{
+.box1 h2{
   font-size: 24px;
   margin-top: 13px;
   color: var(--gray-800);
 }
 
+.box2 {
+  background: white;
+  border: 1px solid var(--gray-500);
+  height: 310px;
+  padding: 14px 24px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 
-.bt-buy-off{
+.box2 h2, .box3 h2 {
+  font-size: 18px;
+  margin-top: 10px;
+  color: var(--gray-800);
+}
+
+
+.box3 {
+  background: white;
+  border: 1px solid var(--gray-500);
+  height: 310px;
+  padding: 14px 24px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+.bt-buy {
+  border: none;
   color: white;
-  background: var(--Opacity-20);
   position: absolute;
   left: 20px;
   bottom: 20px;
@@ -58,14 +94,8 @@
   align-items: center;
 
 }
-
-
-
-.box2 {
-  background: lightgrey;
+.bt-buy:hover::before{
+  content: '구매하기';
+  width: 144px;
+  background: var(--blue);
 }
-
-.box3 {
-  background: lightsalmon;
-}
-
