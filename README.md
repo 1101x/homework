@@ -5,7 +5,8 @@ HTML/CSS
 <br>
 ### 1. 화면 설계
 <img width="400" alt="image" src="https://github.com/1101x/homework/assets/121869052/0801d38d-c22a-4400-b220-b5b100178f39">
-
+<br>
+<br>
   
 ### 2. 마크업
 1. 전체 컨텐츠 가운데 정렬을 위한 설정
@@ -15,6 +16,8 @@ HTML/CSS
   margin: 20px auto;
 }
 ```  
+<br>
+<br>
 2. 기본 설정(여백 삭제 등)
 ``` *{
   padding: 0;
